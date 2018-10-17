@@ -5,7 +5,7 @@ import NavbarBack from '../elements/NavbarBack'
 import PropTypes from 'prop-types'
 
 const Container = styled.View`
-  paddingvertical: 20;
+  paddingVertical: 20;
 `
 
 export default class AuthLayout extends Component {

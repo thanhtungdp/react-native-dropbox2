@@ -5,8 +5,8 @@ import PropTypes from 'prop-types'
 const InputInlineWrapper = styled.View`
   flex-direction: row;
   align-items: center;
-  paddingvertical: 10;
-  paddinghorizontal: 15;
+  paddingVertical: 10;
+  paddingHorizontal: 15;
   background-color: #fff;
   border-top-width: ${props => (props.first ? 1 : 0)};
   border-bottom-width: 1;

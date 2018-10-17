@@ -5,8 +5,8 @@ import Colors from '../../themes/colors'
 
 const ButtonWrappper = styled.TouchableOpacity`
   background-color: ${Colors.primary};
-  paddinghorizontal: 20;
-  paddingvertical: 15;
+  paddingHorizontal: 20;
+  paddingVertical: 15;
   flex-direction: row;
   justify-content: center;
 `

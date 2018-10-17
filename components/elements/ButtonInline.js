@@ -8,8 +8,8 @@ const ButtonWrappper = styled.TouchableOpacity`
   border-top-width: 1;
   border-bottom-width: 1;
   border-color: #eeeeee;
-  paddinghorizontal: 20;
-  paddingvertical: 15;
+  paddingHorizontal: 20;
+  paddingVertical: 15;
   flex-direction: row;
   justify-content: center;
 `
