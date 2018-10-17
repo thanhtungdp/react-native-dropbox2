@@ -6,8 +6,8 @@ import PropTypes from 'prop-types'
 
 const FileItemWrapper = styled.View`
   flex-direction: row;
-  paddingHorizontal: 15;
-  paddingVertical: 10;
+  paddinghorizontal: 15;
+  paddingvertical: 10;
 `
 
 const IconWrapper = styled.View`
@@ -29,7 +29,7 @@ const Cleafix = styled.View`
 
 const LabelDescription = styled.Text`
   font-size: 14;
-  color: ${Colors.textDescription}
+  color: ${Colors.textDescription};
 `
 
 export default function FileItem (props) {

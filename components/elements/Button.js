@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components/native'
-import { SimpleLineIcons } from '@expo/vector-icons'
 import Colors from '../../themes/colors'
 
 const ButtonWrappper = styled.TouchableOpacity`
   background-color: ${Colors.primary};
-  paddingHorizontal: 20;
-  paddingVertical: 15;
+  paddinghorizontal: 20;
+  paddingvertical: 15;
   flex-direction: row;
   justify-content: center;
 `

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components/native'
-import PropTypes from 'prop-types'
 
 import { SimpleLineIcons } from '@expo/vector-icons'
 import { ButtonInline, NavbarBack } from '../components/elements'

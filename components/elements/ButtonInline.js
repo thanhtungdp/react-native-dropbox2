@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components/native'
-import { SimpleLineIcons } from '@expo/vector-icons'
 import Colors from '../../themes/colors'
 
 const ButtonWrappper = styled.TouchableOpacity`
@@ -9,8 +8,8 @@ const ButtonWrappper = styled.TouchableOpacity`
   border-top-width: 1;
   border-bottom-width: 1;
   border-color: #eeeeee;
-  paddingHorizontal: 20;
-  paddingVertical: 15;
+  paddinghorizontal: 20;
+  paddingvertical: 15;
   flex-direction: row;
   justify-content: center;
 `
@@ -18,7 +17,7 @@ const ButtonWrappper = styled.TouchableOpacity`
 const Text = styled.Text`
   color: #333333;
   font-size: 18;
-  color: ${Colors.primary}
+  color: ${Colors.primary};
 `
 
 export default function ButtonInline (props) {

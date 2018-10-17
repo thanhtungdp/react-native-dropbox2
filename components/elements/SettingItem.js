@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components/native'
 import { SimpleLineIcons } from '@expo/vector-icons'
 import PropTypes from 'prop-types'
@@ -8,8 +8,8 @@ const SettingItemWrapper = styled.TouchableOpacity`
   border-top-width: ${props => (props.first ? 1 : 0)};
   border-bottom-width: 1;
   border-color: #eeeeee;
-  paddingHorizontal: 20;
-  paddingVertical: 15;
+  paddinghorizontal: 20;
+  paddingvertical: 15;
   flex-direction: row;
   justify-content: space-between;
 `

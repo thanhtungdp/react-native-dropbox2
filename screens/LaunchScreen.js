@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components/native'
 import * as Animatable from 'react-native-animatable'
 import Screen from '../components/layouts/Screen'

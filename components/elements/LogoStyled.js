@@ -3,11 +3,11 @@ import styled from 'styled-components/native'
 import PropTypes from 'prop-types'
 
 const Image = styled.Image`
-	${props => `
-		width: ${props.size};
-		height: ${props.size};
-		resizeMode: contain;
-	`}
+  ${props => `
+    width: ${props.size};
+    height: ${props.size};
+    resizeMode: contain;
+  `};
 `
 
 export default function Logo (props) {

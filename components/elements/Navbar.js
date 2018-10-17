@@ -6,7 +6,7 @@ const NavbarWrapper = styled.View`
   background-color: ${props => props.backgroundColor};
   height: 82;
   padding-top: 20;
-  paddingHorizontal: 15;
+  paddinghorizontal: 15;
   border-bottom-width: 1;
   border-color: #eee;
 `
@@ -36,9 +36,9 @@ const CenterComponent = styled.View`
 `
 
 const Title = styled.Text`
-	font-size: 18;
-	font-weight: 500;
-	color: ${props => props.color}
+  font-size: 18;
+  font-weight: 500;
+  color: ${props => props.color};
 `
 
 export default class Navbar extends PureComponent {
@@ -63,10 +63,9 @@ export default class Navbar extends PureComponent {
         <NavbarContainer>
           <LeftComponent>{this.props.left}</LeftComponent>
           <CenterComponent>
-            {this.props.isTitleText &&
-              <Title color={this.props.textColor}>
-                {this.props.title}
-              </Title>}
+            {this.props.isTitleText && (
+              <Title color={this.props.textColor}>{this.props.title}</Title>
+            )}
             {!this.props.isTitleText ? this.props.title : null}
           </CenterComponent>
           <RightComponent>{this.props.right}</RightComponent>

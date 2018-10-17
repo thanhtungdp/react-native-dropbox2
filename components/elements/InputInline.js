@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components/native'
 import PropTypes from 'prop-types'
 
 const InputInlineWrapper = styled.View`
   flex-direction: row;
   align-items: center;
-  paddingVertical: 10;
-  paddingHorizontal: 15;
+  paddingvertical: 10;
+  paddinghorizontal: 15;
   background-color: #fff;
   border-top-width: ${props => (props.first ? 1 : 0)};
   border-bottom-width: 1;
