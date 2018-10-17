@@ -8,8 +8,8 @@ const SettingItemWrapper = styled.TouchableOpacity`
   border-top-width: ${props => (props.first ? 1 : 0)};
   border-bottom-width: 1;
   border-color: #eeeeee;
-  paddinghorizontal: 20;
-  paddingvertical: 15;
+  paddingHorizontal: 20;
+  paddingVertical: 15;
   flex-direction: row;
   justify-content: space-between;
 `

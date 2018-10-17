@@ -6,7 +6,7 @@ const NavbarWrapper = styled.View`
   background-color: ${props => props.backgroundColor};
   height: 82;
   padding-top: 20;
-  paddinghorizontal: 15;
+  paddingHorizontal: 15;
   border-bottom-width: 1;
   border-color: #eee;
 `
@@ -63,9 +63,8 @@ export default class Navbar extends PureComponent {
         <NavbarContainer>
           <LeftComponent>{this.props.left}</LeftComponent>
           <CenterComponent>
-            {this.props.isTitleText && (
-              <Title color={this.props.textColor}>{this.props.title}</Title>
-            )}
+            {this.props.isTitleText &&
+              <Title color={this.props.textColor}>{this.props.title}</Title>}
             {!this.props.isTitleText ? this.props.title : null}
           </CenterComponent>
           <RightComponent>{this.props.right}</RightComponent>

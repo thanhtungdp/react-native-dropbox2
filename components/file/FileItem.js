@@ -6,8 +6,8 @@ import PropTypes from 'prop-types'
 
 const FileItemWrapper = styled.View`
   flex-direction: row;
-  paddinghorizontal: 15;
-  paddingvertical: 10;
+  paddingHorizontal: 15;
+  paddingVertical: 10;
 `
 
 const IconWrapper = styled.View`
